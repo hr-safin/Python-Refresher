@@ -16,10 +16,21 @@
 #print(myString)
 
 
-name = "Python is my second love"
+#name = "Python is my second love"
 
-print(name[0:])
-print(name[0:4])
-print(name[:2])
-print(name[:])
-print(name[1:-1])
+#print(name[0:])
+#print(name[0:4])
+#print(name[:2])
+#print(name[:])
+#print(name[1:-1])
+
+#formatted string
+
+first = "Hasibur rahman"
+last = "Safin"
+
+#print(first + " [" + last + "]")
+
+msg = f"{first} [{last}] is my name"
+
+print(msg)
