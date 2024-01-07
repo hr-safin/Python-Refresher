@@ -10,3 +10,27 @@ elif (is_cold):
 
 else:
     print("It is fall enjoy your day", "Lovely day")
+
+
+price = 1000000
+has_good_Credit = False
+
+
+if (has_good_Credit):
+    down_payment = .1 * price
+
+else:
+    down_payment = .2 * price
+
+
+print(f"${down_payment}")
+
+
+mark = 70
+
+if (mark >= 70):
+    print("A+")
+elif (mark < 70):
+    print("A")
+else:
+    print("B")
