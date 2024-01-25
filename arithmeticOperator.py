@@ -1,7 +1,9 @@
 
-#exponentital
-#mulitplication 0r division
-#addition or substraction
+# python follows the standard order of operations (PEMDAS):
+# > Parentheses
+# > Exponents
+# > Multiplication and Division (from left to right)
+# > Addition and Subtraction (from left to right)
 
 
 x = 45
