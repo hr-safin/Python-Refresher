@@ -1,36 +1,24 @@
-is_hot = False
-is_cold = False
+age = int(input("Enter your age please "))
 
-if (is_hot):
-    print("Its a hot day")
-    print("Drink plenty of water")
-elif (is_cold):
-    print("Its a cold day")
-    print("Wear worm cloth")
+if(age > 18):
+    print("You are eligable for this website")
 
 else:
-    print("It is fall enjoy your day", "Lovely day")
+    print("You are not eligable for this website")
 
 
-price = 1000000
-has_good_Credit = False
 
+# discounted price
 
-if (has_good_Credit):
-    down_payment = .1 * price
+billAmount = int(input("Enter your bill amount"))
+
+if(billAmount > 50):
+    discounted = billAmount - (billAmount / 10)
+    print(f"The discounted bill is : {discounted}")
+
+elif(billAmount > 20 and billAmount < 50):
+    discounted  = billAmount - (billAmount / 5)
+    print(f"The discounted bill is : {discounted}")
 
 else:
-    down_payment = .2 * price
-
-
-print(f"${down_payment}")
-
-
-mark = 70
-
-if (mark >= 70):
-    print("A+")
-elif (mark < 70):
-    print("A")
-else:
-    print("B")
+    print("No Discount")
