@@ -32,6 +32,4 @@ I want to go to usa
 '''
 last = "Nur Al Munira"
 
-print(first + " " + last)
-
-print(first[-1])
+print(last[0:-2])
