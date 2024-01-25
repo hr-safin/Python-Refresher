@@ -1,16 +1,17 @@
-#birthYear = input("Enter your birth year? ")
+# birth_year = input("Enter your Birth year")
 
-#print(type(birthYear))
-#age = 2024 - int(birthYear)
+# age = 2024 - int(birth_year)
+# print(age)
 
-#print(type(age))
+# there are two types conversion implicit conversion and explicit conversion
 
+num1 = 10
+num2 = 3.45
 
-#print(age)
+num3 = num1 + num2
 
+print(num3)
 
-weight_lbs = input("Give your weught in lbs")
+a = 5
 
-weight_Kg = int(weight_lbs) * .45
-
-print(weight_Kg)
+print(float(a))
