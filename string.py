@@ -26,11 +26,12 @@
 
 #formatted string
 
-first = "Hasibur rahman"
-last = "Safin"
+first = '''
+I am Hasibur rahman safin
+I want to go to usa
+'''
+last = "Nur Al Munira"
 
-#print(first + " [" + last + "]")
+print(first + " " + last)
 
-msg = f"{first} [{last}] is my name"
-
-print(msg)
+print(first[-1])
