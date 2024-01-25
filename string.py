@@ -33,3 +33,15 @@ I want to go to usa
 last = "Nur Al Munira"
 
 print(last[0:-2])
+
+# formatted string
+
+a = "Hasibur rahman"
+b = "Safin"
+
+print(f"{a} {b}")
+
+firstNum = 12
+secondNum = 15
+
+print(f"{firstNum} {secondNum}")
