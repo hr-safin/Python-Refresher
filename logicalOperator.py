@@ -1,12 +1,11 @@
 #logical operator
 
-has_good_income = False
-has_good_credit = True
-has_criminal_records = True
+has_good_income = True
+has_good_car = True
 
 
-if has_good_income and not has_criminal_records:
-    print("Eligable for loan")
+if(has_good_income and not has_good_car):
+    print("You can buy the duplex house")
 
 else:
-    print("Not eligable for laon")
+    print("You are not eligable")
