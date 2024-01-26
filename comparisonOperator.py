@@ -1,13 +1,18 @@
-#
+# comparison operator
 
-name = "Hasibur rahman safin fdsjklllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllls"
+name = "safin"
 
+if(name == "safin"):
+    print("You can go to usa inshallah")
 
-if(len(name) < 3):
-    print("Name must be 3 character")
-
-elif(len(name) > 50):
-    print("Name can be 50 character maximum")
 else:
-    print("name looks good")
+    print("You can not go to usa")
 
+
+mark = 60
+
+if(60 <= mark <= 80):
+    print("You have obtain good mark")
+
+else:
+    print("you mark is not good enough")
