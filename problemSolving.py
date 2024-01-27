@@ -6,3 +6,6 @@ width = 5
 rectangle = length * width
 
 print(f"The Area of Rectangle is {rectangle}")
+
+# 2. Determine the largest among three given numbers.
+
