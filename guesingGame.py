@@ -1,18 +1,18 @@
 # guesing game
 
-secret_number = 9
+sectret_number = 9
 guess_count = 0
 guess_limit = 3
 
-i = 0
-
 while guess_count < guess_limit:
-    guess = int(input("Guess "))
+    guess = int(input("Guess"))
     guess_count += 1
-    if( guess == secret_number):
+
+    if(guess == sectret_number):
         print("You won")
         break
+
 else:
-    print("Sorry you failed Try Again")
+    print("sorry you failed try again")
 
 
