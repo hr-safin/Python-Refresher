@@ -11,6 +11,7 @@ while  True:
 
     elif(command == "stop"):
         if(not started):
+
             print('Car is already stopped')
         else:
             stopped = False
