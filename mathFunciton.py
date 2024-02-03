@@ -19,3 +19,7 @@ print(result5)
 
 result6 = math.factorial(5)
 print(result6)
+
+result4 = 3.5
+
+print(round(result4))
