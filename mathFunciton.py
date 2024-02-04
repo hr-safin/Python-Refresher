@@ -23,3 +23,4 @@ print(result6)
 result4 = 3.5
 
 print(round(result4))
+print(round(result4))
