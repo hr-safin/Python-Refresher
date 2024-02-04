@@ -23,3 +23,9 @@ for l_count in numbers2:
         output += "X"
     print(output)
 
+for l_count in numbers2:
+    output = ""
+    for count in range(l_count):
+        output += "X"
+    print(output)
+
