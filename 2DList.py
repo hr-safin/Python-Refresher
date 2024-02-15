@@ -11,6 +11,11 @@ matrix = [
     [2,5,6],
     [6,4,"safin"]
 ]
+matrix = [
+    [1,2,3],
+    [2,5,6],
+    [6,4,"safin"]
+]
 
 print(matrix[2][2])
 
