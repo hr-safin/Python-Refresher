@@ -19,6 +19,6 @@ matri = [
 
 print(matrix[2][2])
 
-for row in matrix:
+for row in matri:
     for item in row:
         print(item)
